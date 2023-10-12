@@ -21,8 +21,8 @@ void main() {
   } else if (rumus == '*') {
     hasil = bil1 * bil2;
   } else if (rumus == '/') {
-    if (bil12 != 0) {
-      hasil = bil1 / bil1;
+    if (bil2 != 0) {
+      hasil = bil1 / bil2;
     } else {
       print('Pembagian nol tidak diizinkan!!!.');
       return;
