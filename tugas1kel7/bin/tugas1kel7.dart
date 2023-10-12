@@ -24,11 +24,11 @@ void main() {
     if (bil12 != 0) {
       hasil = bil1 / bil1;
     } else {
-      print('Pembagian nol tidak diizinkan!.');
+      print('Pembagian nol tidak diizinkan!!!.');
       return;
     }
   } else {
-    print('Mohon Masukan Anka yang benar !.');
+    print('Mohon Masukan Angka yang benar !!.');
     return;
   }
   print('Hasil Perhitungan : $hasil');
