@@ -15,14 +15,14 @@ void main() {
 num hasil = 0;
 
   if (rumus == '+') {
-    hasil = bil1 + bil12;
+    hasil = bil1 + bil2;
   } else if (rumus == '-') {
-    hasil = bil11 - bil12;
+    hasil = bil1 - bil2;
   } else if (rumus == '*') {
-    hasil = bil11 * bil12;
+    hasil = bil1 * bil2;
   } else if (rumus == '/') {
     if (bil12 != 0) {
-      hasil = bil11 / bil1;
+      hasil = bil1 / bil1;
     } else {
       print('Pembagian nol tidak diizinkan!.');
       return;
@@ -31,8 +31,7 @@ num hasil = 0;
     print('Mohon Masukan Anka yang benar !.');
     return;
   }
-
   print('Hasil Perhitungan : $hasil');
 
-  
+
 }
