@@ -12,7 +12,7 @@ void main() {
   stdout.write("Masukkan Operator Perhitungan (+ - x /) = ");
   String rumus = stdin.readLineSync() ?? '';
 
-num hasil = 0;
+  num hasil = 0;
 
   if (rumus == '+') {
     hasil = bil1 + bil2;
